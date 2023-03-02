@@ -191,6 +191,10 @@
                                 (click)="setMode('own_ctrl-iframe')">
                                 <span class="icon-tool icon-iframe"></span>
                             </div>
+                            <div class="svg-tool-button" matTooltip="{{'editor.controls-iframe' | translate}}" [ngClass]="{'svg-tool-active': isModeActive('own_ctrl-iframe')}"
+                            (click)="setMode('own_ctrl-iframe')">
+                            <span class="icon-tool icon-iframe"></span>
+                        </div>
                         </div>
                     </mat-expansion-panel>
                     <!-- SHAPES -->

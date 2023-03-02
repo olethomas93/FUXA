@@ -584,6 +584,7 @@ export class EditorComponent implements OnInit, AfterViewInit, OnDestroy {
             this.clearSelection();
             this.checkFillAndStrokeColor();
         }
+        console.log(mode)
         this.winRef.nativeWindow.svgEditor.clickToSetMode(mode);
     }
 
